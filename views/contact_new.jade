@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  form( method="post")
+    div
+      div
+        span Name :
+          input(type="text", name="name", id="editContactName")
+      div
+          span Email :
+          input(type="text", name="email", d="editContactEmail")
+      div#editContactSubmit
+        input(type="submit", value="Send")

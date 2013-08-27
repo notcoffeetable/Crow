@@ -1,0 +1,21 @@
+{
+  "name": "Crow",
+  "version": "0.0.1",
+  "private": true,  
+  "author": "Paladin Innovators LLC <development@paladininnovators.com>",
+  "description": "Contact management and newletter system.",
+  "contributors": [ 
+    {
+      "name": "Dean Bisogno",
+      "email": "dean@notcoffeetable.com"
+    } 
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.3.5",
+    "jade": "*",
+    "stylus": "*",
+    "mongodb": "*"
+  }
+}

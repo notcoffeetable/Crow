@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  #contacts
+  - each contact in contacts
+    div.contact
+      div.name= contact.name
+      div.email= contact.email
+      div.created_at= contact.created_at
+
+  a(href="/contact/new")!= "Add New Employee"
